@@ -1,0 +1,88 @@
+h1 {color: blue;
+text-align: center;
+font-size: 50px;}
+
+* {box-sizing: border-box;}
+
+body {
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+.card
+{
+width: 100%;
+height: 200px;
+background-color: pink;
+border: 1px solid black;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+position: relative;
+}
+
+p { 
+	position: relative;
+	top:30px;
+	left: 0px;
+	float:left;
+	padding: 5px 5px 5px;
+
+}
+
+.content{ 
+	font-size: 15px;
+	font-family: verdana, italic;
+	color: rgb(32, 99, 71);}
+
+.tag 
+{
+	width: 30%;
+	float: right;
+	position: relative;
+	bottom: 0px;
+	font-size: 20px;
+	font-style: sans-serif;
+	color: white;
+	text-align: center;
+}
+
+#tag1 
+{
+background-color: lightblue;
+border: 1px solid black;}
+
+#tag2 
+{
+	background-color: violet;
+       border: 1px solid black;}
+
+#tag3
+{
+	background-color: #ff8147;
+       border: 1px solid black;}
+
+
+@media (min-width: 992px) {
+	.card
+	{ 
+		width: 30%;
+		float: left; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .card
+  { 
+
+  	width: 40%;
+	float: left; } 
+
+ .number-3
+ { 
+ 	width: 80%; }
+   
+   }
+
+	@media (max-width: 767px) {
+	.card{ width: 90%;
+	float: left; }
+}
